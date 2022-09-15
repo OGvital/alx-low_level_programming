@@ -2,11 +2,14 @@
 #include <stdio.h>
 
 /**
- * 
- * main - check the code.
+ * _isupper - tests whether a character is upper case or not
  *
- * Return: Always 0.
+ * @c: The character to be tested
+ *
+ * Return: 0 if character is uppercase 1 otherwise
+ *
  */
+
 int _isupper(int c)
 {
 	char item;
