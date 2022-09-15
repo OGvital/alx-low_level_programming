@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _isdigit - checks if an input is a digit
@@ -11,12 +10,9 @@
 
 int _isdigit(int c)
 {
-int item;
-
-for (item = '0'; item <= '9'; item++)
+	if ((c >= 48) && (c <= 57))
 	{
-	if (item == c)
 		return (1);
 	}
-return (0);
+	return (0);
 }
