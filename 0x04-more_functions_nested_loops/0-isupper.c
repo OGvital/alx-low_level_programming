@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * 
  * main - check the code.
@@ -7,9 +9,12 @@
  */
 int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	char item;
+
+	for (item = 'A'; item <= 'Z'; item++)
 	{
-		return (1);
+		if (c == item)
+			return (1);
 	}
-	reurn (0);
+	return (0);
 }
