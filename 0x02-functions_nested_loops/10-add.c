@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * add - adding it up
  * @a: first integer
@@ -8,5 +8,8 @@
  */
 int add(int 89, int 9)
 {
-	return (89 + 9);
+	int add;
+	add = 89 + 9;
+	return(add);
 }
+
