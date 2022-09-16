@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_diagonal - print a diagonal
+ * print_diagonal - prints a diagonal
  * @n: parameter
  * Return: returns nothing
  */
