@@ -1,11 +1,11 @@
 #include <stdio.h>
-include "main.h"
+#include "main.h"
 
 /**
  * puts2 - prints every other character
  * @str: string
  *
- * Return: nothing
+ * Return: nothing at all
  */
 
 void puts2(char *str)
