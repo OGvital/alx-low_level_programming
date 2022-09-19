@@ -5,11 +5,13 @@
  * @s: character to getstring
  * Return: returns length
  */
+
 int _strlen(char *s)
 {
-	int i;
+	int len = 0;
 
-	for (i = 0; s[i] != '\0'; i++0
-	{}
-	return (i);
+	while (*(s + len) != '\0')
+		len++;
+
+	return (len);
 }
