@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - print the name of the program
+ * main - Print the name of the program
  * @argc: Count arguments
  * @argv: Arguments
  *
@@ -11,9 +11,11 @@
 
 int main(int argc, char *argv[])
 {
-	(void) argv;
+	int count = 0
 
-	printf("%i\n", argc - 1);
-
-	return(0);
+		if (argc > 0)
+		{
+			while (count < argc)
+		}
+	printf("%s\n", argv[count]);
 }
